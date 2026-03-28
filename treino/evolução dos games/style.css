@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+:root{
+    --cor0: #b2d8d8;
+    --cor1: #66b2b2;
+    --cor2: #008080;
+    --cor3: #006666;
+    --cor4: #004c4c;
+    --cor5: #001616;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+}
+
+header{
+    background-image: linear-gradient(var(--cor3), var(--cor5));
+    min-height: 120px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+header > h1{
+    color: white;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.281);
+}
+
+header > p{
+    color: white;
+    max-width: 600px;
+    padding: 0px 20px 0px 20px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.281);
+}
+
+nav{
+    background-color: var(--cor5);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
+}
+
+nav > a{
+    color: var(--cor1);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: normal;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover{
+    background-color: var(--cor3);
+    color: var(--cor5);
+    text-decoration: none;
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0px 20px 20px 20px;
+    text-align: justify;
+}
+main h2{
+    padding: 10px 0px 5px 0px;
+    font-weight: normal;
+}
+
+main h3{
+    font-weight: normal;
+    padding: 5px 0px 5px 0px;
+
+}
+
+main p{
+    text-align: justify;
+    text-indent: 10px;
+    padding-bottom: 10px;
+}
+
+main ul{
+    list-style-position: inside;
+}
+
+main li::marker{
+    color: #008080;
+    font-size: 1.5em;
+}
+
+aside{
+    background-color: var(--cor5);
+    margin: auto;
+    text-align: justify;
+    padding: 0px 20px 20px 20px;
+}
+
+aside h3{
+    padding: 20px 0px 0px 0px;
+    font-weight: normal;
+    color: white;
+    text-align: justify;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+aside ul{
+    list-style-position: inside;
+    color: white;
+    text-align: justify;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style-position: inside;
+    columns: 2;
+}
+
+aside li{
+    color: white;
+}
+
+a{
+    color: #008080;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
