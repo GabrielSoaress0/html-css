@@ -3,20 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
             height: 100vh;
+            /*
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
-            background-position: center top;
+            background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed; 
+            */
+
+            /* Shorthand - background: 
+            color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
+
         }
 
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -27,6 +38,9 @@
 <body>
     <main>
         <h1>Teste de Imagem de fundo</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis explicabo sapiente assumenda ratione sequi delectus, numquam voluptate autem eveniet sunt cumque totam laboriosam! Eaque aliquam culpa esse explicabo quibusdam illo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus quae aliquid architecto harum consequatur nisi nemo accusamus, tempore animi, itaque in? Ipsum accusantium error, amet velit voluptatibus corporis. Officia, dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, nulla blanditiis nobis nihil voluptatum harum cupiditate aut quasi consequuntur obcaecati expedita provident, accusantium ipsa aspernatur, voluptate cum pariatur ratione doloribus?</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis explicabo sapiente assumenda ratione sequi delectus, numquam voluptate autem eveniet sunt cumque totam laboriosam! Eaque aliquam culpa esse explicabo quibusdam illo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus quae aliquid architecto harum consequatur nisi nemo accusamus, tempore animi, itaque in? Ipsum accusantium error, amet velit voluptatibus corporis. Officia, dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, nulla blanditiis nobis nihil voluptatum harum cupiditate aut quasi consequuntur obcaecati expedita provident, accusantium ipsa aspernatur, voluptate cum pariatur ratione doloribus?</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis explicabo sapiente assumenda ratione sequi delectus, numquam voluptate autem eveniet sunt cumque totam laboriosam! Eaque aliquam culpa esse explicabo quibusdam illo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus quae aliquid architecto harum consequatur nisi nemo accusamus, tempore animi, itaque in? Ipsum accusantium error, amet velit voluptatibus corporis. Officia, dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, nulla blanditiis nobis nihil voluptatum harum cupiditate aut quasi consequuntur obcaecati expedita provident, accusantium ipsa aspernatur, voluptate cum pariatur ratione doloribus?</p>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis explicabo sapiente assumenda ratione sequi delectus, numquam voluptate autem eveniet sunt cumque totam laboriosam! Eaque aliquam culpa esse explicabo quibusdam illo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus quae aliquid architecto harum consequatur nisi nemo accusamus, tempore animi, itaque in? Ipsum accusantium error, amet velit voluptatibus corporis. Officia, dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, nulla blanditiis nobis nihil voluptatum harum cupiditate aut quasi consequuntur obcaecati expedita provident, accusantium ipsa aspernatur, voluptate cum pariatur ratione doloribus?</p>
     </main>
 </body>
